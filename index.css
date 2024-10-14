@@ -4,20 +4,6 @@ html, body {
     font-family: 'Inter', sans-serif;
 }
 
-/* nav {
-    text-align: center;
-    background-color: #FFFFFF;
-    width: 100%;
-    min-height: 90px;
-    max-width: 6000px;
-    justify-content: center;
-    display: flex;
-    gap: 15px;
-
-    position: fixed;
-    box-sizing: border-box;
-} */
-
 .navbar {
     
     background-color: #FFFFFF;
