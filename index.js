@@ -32,5 +32,10 @@ document.getElementById("fetch-scheme").addEventListener("click", () => {
 
         
     })
+
+    .catch(error => {
+        console.error("Error fetching color scheme:", error);
+        alert("Failed to retrieve color scheme. Please try again later.");
+    });
     
 })
