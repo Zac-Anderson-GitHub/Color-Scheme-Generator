@@ -1,114 +1,121 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Inter', sans-serif;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
 }
 
 /* Mobile-first styles */
 .navbar {
-    background-color: #FFFFFF;
-    width: 100%;
-    min-height: 90px;
-    justify-content: center;
-    display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center;
-    gap: 15px; /* Reduce gap for mobile */
-    padding: 15px; /* Smaller padding for mobile */
-    position: fixed;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-    margin: 0;
+  background-color: #ffffff;
+  width: 100%;
+  min-height: 90px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;
+  gap: 15px; /* Reduce gap for mobile */
+  padding: 15px; /* Smaller padding for mobile */
+  position: fixed;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  margin: 0;
 }
 
-#color-picker, #fetch-scheme, #scheme-options {
-    width: 100%; /* Full width for mobile */
-    height: 42px;
-    border-radius: 4px;
-    cursor: pointer;
+#color-picker,
+#fetch-scheme,
+#scheme-options {
+  width: 100%; /* Full width for mobile */
+  height: 42px;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-#scheme-options, #fetch-scheme {
-    border-radius: 4px;
-    border: 1px solid #D1D5DB;
+#scheme-options,
+#fetch-scheme {
+  border-radius: 4px;
+  border: 1px solid #d1d5db;
 }
 
-#color-picker:focus, #fetch-scheme:focus {
-    box-shadow: 0 0 0 2px #D1D5DB; /* Custom focus style */
-    outline: none;
+#color-picker:focus,
+#fetch-scheme:focus {
+  box-shadow: 0 0 0 2px #d1d5db; /* Custom focus style */
+  outline: none;
 }
 
 #color-picker {
-    width: 100%; /* Full width for mobile */
-    border: none;
+  width: 100%; /* Full width for mobile */
+  border: none;
 }
 
 #scheme-options {
-    width: 100%; /* Full width for mobile */
-    padding-left: 10px;
+  width: 100%; /* Full width for mobile */
+  padding-left: 10px;
 }
 
 #fetch-scheme {
-    width: 100%; /* Full width for mobile */
-    font-size: 0.75em;
-    border-color: #D1D5DB;
-    background-color: #FFFFFF;  
-    align-items: center;
-    padding: 15px 0;
+  width: 100%; /* Full width for mobile */
+  font-size: 0.75em;
+  border-color: #d1d5db;
+  background-color: #ffffff;
+  align-items: center;
+  padding: 15px 0;
 }
 
 #color-scheme-display {
-    background-color: #FFFFFF;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 .color-block {
-    width: 100%;
-    min-width: 70px;
-    flex: 1; /* Each block takes up equal space vertically */
+  width: 100%;
+  min-width: 70px;
+  flex: 1; /* Each block takes up equal space vertically */
 }
 
 #footer-content {
-    height: 46px;
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    background-color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    box-sizing: border-box;
+  height: 46px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
 }
 
 .color-code {
-    display: flex;
-    justify-content: center;
-    flex: 1;
-    font-size: 0.75em;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  font-size: 0.75em;
 }
 
 /* Responsive design for tablets and larger screens */
 @media (min-width: 768px) {
-    .navbar {
-        flex-direction: row; /* Align items horizontally */
-        justify-content: center;
-        gap: 25px; /* Larger gap for desktop */
-        padding: 25px;
-    }
+  .navbar {
+    flex-direction: row; /* Align items horizontally */
+    justify-content: center;
+    gap: 25px; /* Larger gap for desktop */
+    padding: 25px;
+  }
 
-    #color-picker {
-        width: 61px; /* Original size */
-    }
+  #color-picker {
+    width: 61px; /* Original size */
+  }
 
-    #scheme-options {
-        width: 312px; /* Original size */
-    }
+  #scheme-options {
+    width: 312px; /* Original size */
+  }
 
-    #fetch-scheme {
-        width: 123px; /* Original size */
-    }
+  #fetch-scheme {
+    width: 123px; /* Original size */
+  }
 }
